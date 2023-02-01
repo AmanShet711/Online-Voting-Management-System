@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title> Dashboard </title>
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <div id="logout">
+    <button onclick="window.location.href = 'user1login.html';">Logout</button><br><br>
+  </div>
+    <br><br><br><br>
+    <h1 style="font-family: Arial; text-align: center;">Dashboard</h1>
+    <br><br><br>
+
+    <hr>
+    <br><br><br>
+    <body id="body">
+      
+      <h2 style="text-align: center; font-family: Calibri;">Register the following details incase if missed out earlier</h2>
+      <div id="select">
+      
+  <button onclick="window.location.href = 'insertion/icandidate.html';">Register a candidate</button><br><br>
+  <button onclick="window.location.href = 'insertion/ivoter.html';">Register a Voter</button><br><br>
+  <button onclick="window.location.href = 'insertion/iparty.html';">Register a Party</button><br><br>
+  <button onclick="window.location.href = 'insertion/iward.html';">Register a new Ward</button><br><br>
+  <hr>
+  <h3>View</h3>
+  <button onclick="window.location.href = 'view/scandidate.php';;">Details of candidate</button><br><br>
+  <button onclick="window.location.href = 'view/svoter.php';">Details of Voter</button><br><br>
+  <button onclick="window.location.href = 'view/sparty.php';">Details of Party</button><br><br>
+  <button onclick="window.location.href = 'view/sward.php';">Details about various Ward</button><br><br>
+  <hr>
+  <h3>Queries</h3>
+  <button onclick="window.location.href = 'queries/query1.php';;">Voter and their corresponding ward</button><br><br>
+  <button onclick="window.location.href = 'queries/query2.php';">Winner</button><br><br>
+  <button onclick="window.location.href = 'queries/query3.php';">Number of female and male voters</button><br><br>
+  <button onclick="window.location.href = 'queries/query4.php';">Number of female and male Candidates</button><br><br>
+  <button onclick="window.location.href = 'queries/query5.php';">Candidate with the least number of votes</button><br><br>
+  <button onclick="window.location.href = 'queries/query6.php';">Candidate with age less than 25</button><br><br>
+</div>
+    </body>
+   <style>
+    #body{
+      background-color: bisque;
+      background: url(online_v.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+    option{
+      text-align: center;
+      padding: 10px;
+      background-color: cornflowerblue;
+      border-radius: 5px;
+    }
+    #select{
+      text-align: center;
+    }
+    #options{
+      background-color: khaki;
+    }
+    button{
+      background-color: rgb(154, 183, 228);
+      padding: 10px;
+      width: 30%;
+      height: 05%;
+      border-radius: 5%;
+      font-family: Calibri;
+      font-size: large;
+    }
+    #logout{
+      width: 15%;
+      padding: 10px;
+      float: right;
+      font-family: cursive;
+      
+    }
+    
+    </style>
+</html>

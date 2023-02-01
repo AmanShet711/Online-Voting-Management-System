@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title> Candidate </title>
+        <link rel="stylesheet" href="../css/stylesheet.css">
+    </head>
+    <br><br>
+    <h1 style="font-family: cursive; text-align: center;">Registration of a new Candidate</h1>
+    <hr>
+    <br><br>
+    <body id="body1">
+        <h2 style="font-family: Arial; text-align: center;">Fill in the below details</h2>
+        <form id="mainsection" action="../insertion/icandidate.php" method="POST" class="form" id="form">
+			Candidate ID: <input type="text" name="c_id" value="" /></br></br>
+			Candidate Name: <input type="text" name="c_name" value="" /></br></br>
+            Age: <input type="text" name="age" value="" /></br></br>
+            Gender: <input type="text" name="gender" value="" /></br></br>
+			Party ID: <input type="text" name="p_id" value="" /></br></br>
+			Ward ID: <input type="text" name="w_id" value="" /></br></br>
+            Votes:  <input type="text" name="votes" value="" /></br></br>
+            <input style="background-color: darkolivegreen;color: black;
+                            padding: 10px; border-radius: 10%;"type="submit" name="submit" value="Submit" />
+        </form>
+    </body>
+   <style>
+    #body1{
+        background: url(../Register.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
+    input{
+        background-color: rgb(131, 181, 183);
+        text-align: center;
+        padding: 10px;
+        width: 5%;
+        height: 5%;
+        border-radius: 10%;
+    }
+    #mainsection{
+        text-align: center;
+        color: rgb(2, 17, 45);
+        font-size: large;
+        font-family: Arial;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    
+   </style>
+</html>

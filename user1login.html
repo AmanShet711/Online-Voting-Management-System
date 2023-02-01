@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>ADMIN</title>
+<!-- <link href = "/myicon.ico" type = "image/x-icon"> -->
+</head>
+
+
+<body>
+  <h1 style="font-family: Calibri; color: black; text-align: center;">ONLINE VOTING MANAGEMENT SYSTEM</h1>
+  <link rel="stylesheet" href="style.css">
+  <form action="https://localhost/ovs/login1.php" method="post">
+  <h2 id="login" style="color:black">ADMIN LOGIN</h2>
+   <?php if (isset($_GET['error'])) { ?>
+   <p class="error"><?php echo $_GET['error']; ?></p>
+   <?php } ?>
+<!-- <div class="img"> -->
+   <!-- <img src="7.png" alt="Warning!"> -->
+</div><br><br>
+        <div>
+          <center><label style="color: black;">User_ID</label></center><br><br><br>
+
+        <center><input type="text" name="u_id"></center><br><br>
+      </div>
+      <br><br>
+      <div >
+        <center><label style="color: black;">Password</label></center><br><br><br>
+
+        <center><input type="password" name="password"></center>
+      </div>
+      <br><br>
+        <div id="btn">
+          <center><button style ="font-size: larger;"type="submit">Login</button></center>
+        </div>
+        
+      
+      <br><br>
+
+<style>
+body{
+  background: url(login_ovs.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img{
+width:100%;
+}
+#login{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-family: cursive;
+}
+
+label{
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5%;
+  width: 30%;
+  place-items: center;
+  font-family: Arial;
+}
+
+input{
+  text-align: center;
+  background-color: rgb(154, 193, 247);
+  padding: 10px;
+  border-radius: 5%;
+  opacity: 80%;
+  
+}
+</style>
+  
+ 
+</body>
+</html>
